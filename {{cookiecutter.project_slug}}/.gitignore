@@ -1,0 +1,36 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+*.qmlc
+
+# Qt-es
+
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile
+*-build-*
+
+# Qt-build
+moc_predefs.h
+target_wrapper.sh
+.qmake.stash
+
+## project specific
+app/app
+tests/tests
+
+# Emacs
+.#*
+
+# unix
+.directory

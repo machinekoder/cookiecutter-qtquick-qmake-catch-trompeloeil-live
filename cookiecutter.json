@@ -1,0 +1,10 @@
+{
+    "organization_name": "Your organizations name",
+    "organization_domain": "Your organziations domain (e.g. example.com)",
+    "project_name": "Name of the project",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '_') }}",
+    "project_short_description": "A short description of the project",
+    "_copy_without_render": [
+        "3rdparty/*"
+    ]
+}

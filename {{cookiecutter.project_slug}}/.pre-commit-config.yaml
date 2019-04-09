@@ -1,0 +1,31 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.1.0
+    hooks:
+      - id: check-ast
+      - id: check-byte-order-marker
+      - id: trailing-whitespace
+        exclude: '.*\.patch'
+      - id: check-docstring-first
+      - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-xml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: fix-encoding-pragma
+
+-   repo: https://github.com/machinekoder/pre-commit-hooks
+    rev: master
+    hooks:
+      - id: clang-format
+        args: [-style=WebKit]
+        exclude: '3rdparty/.*'
+      #- id: qmllint
+      #- id: qmlfmt
+      #  args: [-i 2, -t 2]
+      #- id: shfmt
+      #  args: [-i=4]
