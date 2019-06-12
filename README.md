@@ -12,4 +12,4 @@ Generate a new Cookiecutter template layout: `cookiecutter gh:machinekoder/cooki
 This project is licensed under the terms of the [MIT License](/LICENSE)
 
 ## See also
-* [qtquick-cmake-catch-trompeloeil-live](https://github.com/machinekoder/cookiecutter-qtquick-cmake-catch-trompeloeil-live`)
+* [qtquick-cmake-catch-trompeloeil-live](https://github.com/machinekoder/cookiecutter-qtquick-cmake-catch-trompeloeil-live)
