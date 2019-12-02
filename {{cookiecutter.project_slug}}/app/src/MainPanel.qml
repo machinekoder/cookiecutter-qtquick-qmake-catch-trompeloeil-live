@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import QtQuick.Controls 2.3
+import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.1
 import MyMath 1.0
 

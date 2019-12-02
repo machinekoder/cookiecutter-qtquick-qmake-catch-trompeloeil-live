@@ -16,7 +16,7 @@ ApplicationWindow {
 
   Component.onCompleted: {
       for (var i = 0; i < Qt.application.screens.length; ++i) {
-          let screen = Qt.application.screens[i]
+          var screen = Qt.application.screens[i]
           if (screen.serialNumber === windowSettings.screen) {
               root.screen = screen
               return
@@ -25,7 +25,9 @@ ApplicationWindow {
   }
 
   Component.onDestruction: {
+    if (root.screen.serialNumber) {
       windowSettings.screen = root.screen.serialNumber
+    }
   }
 
   LiveCodingPanel {
